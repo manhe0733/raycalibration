@@ -4,12 +4,6 @@ import time
 def add(a,b):
     return a+b
 
-def multiply(a,b):
-    return a*b
-
-def divide(a,b):
-    return a/b
-
 def download_youtube_video(url, output_path=None):
     try:
         # YouTube 객체 생성
